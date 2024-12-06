@@ -1,0 +1,49 @@
+body {
+    color:red:#954273;
+    background:pink;
+    margin: 0xp;
+    font-family: "Lobster", sans-serif;
+}
+
+header{border-bottom: solid 1px red;
+padding: 20px;
+font-size: 32px;
+
+}
+
+section{
+
+background: #c17474;
+padding-botom: 80px;
+padding-top: 80px
+display: flex;
+
+}
+
+div {
+    margin-right:20px;
+}
+
+h1 {font-size: 50px;
+
+}
+
+p {
+    font-size: 30px;
+}
+img{
+    height: 200px;
+}
+
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+.categoria-videos img {
+opacity: 0.3;
+}
+.categoria-videos img:hover {
+    opacity:1.0;
+}
